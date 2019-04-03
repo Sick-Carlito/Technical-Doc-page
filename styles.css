@@ -1,4 +1,38 @@
+body{
+
+}
+
 code{
 	background: #eee;
-	
+	display: inline-block;
+	padding:1.5rem;
+	border:1px solid #e5e5e5;
+	margin:2rem 0;
 }
+
+.topDoc{
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+#main-doc header{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.nav-link li{
+border:1px solid #000;
+margin:0;
+padding:1rem;
+color:#fff;
+background: steelblue;
+list-style: none;
+}
+
+@media (max-width: 700px) { 
+  #navbar ul{
+  	padding:0 !important;
+  }
+
+ }
